@@ -14,6 +14,12 @@
 		9A110F1A2B19CDEA00CF2331 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A110F192B19CDEA00CF2331 /* ApiKeys.plist */; };
 		9A110F1C2B19CE5E00CF2331 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A110F1B2B19CE5D00CF2331 /* ApiKeys.swift */; };
 		9A110F202B19CED200CF2331 /* ToiletAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A110F1F2B19CED200CF2331 /* ToiletAPI.swift */; };
+		9A6E03682B1DA6A7005B5A84 /* ToiletDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E03672B1DA6A7005B5A84 /* ToiletDetailView.swift */; };
+		9A6E036A2B1DA900005B5A84 /* TouristAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E03692B1DA900005B5A84 /* TouristAPI.swift */; };
+		9A6E036C2B1DA93F005B5A84 /* ParkingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E036B2B1DA93F005B5A84 /* ParkingAPI.swift */; };
+		9A6E036E2B1DAB01005B5A84 /* TouristView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E036D2B1DAB01005B5A84 /* TouristView.swift */; };
+		9A6E03702B1DC3C4005B5A84 /* ParkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E036F2B1DC3C4005B5A84 /* ParkingView.swift */; };
+		9A6E03722B1DC5E9005B5A84 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E03712B1DC5E9005B5A84 /* NavView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		9A110F1B2B19CE5D00CF2331 /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
 		9A110F1F2B19CED200CF2331 /* ToiletAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletAPI.swift; sourceTree = "<group>"; };
 		9A110F212B19D6F500CF2331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9A6E03672B1DA6A7005B5A84 /* ToiletDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletDetailView.swift; sourceTree = "<group>"; };
+		9A6E03692B1DA900005B5A84 /* TouristAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristAPI.swift; sourceTree = "<group>"; };
+		9A6E036B2B1DA93F005B5A84 /* ParkingAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingAPI.swift; sourceTree = "<group>"; };
+		9A6E036D2B1DAB01005B5A84 /* TouristView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristView.swift; sourceTree = "<group>"; };
+		9A6E036F2B1DC3C4005B5A84 /* ParkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingView.swift; sourceTree = "<group>"; };
+		9A6E03712B1DC5E9005B5A84 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +73,13 @@
 				9A110F212B19D6F500CF2331 /* Info.plist */,
 				9A110F0B2B19CDC300CF2331 /* MalddongApp.swift */,
 				9A110F0D2B19CDC300CF2331 /* ContentView.swift */,
+				9A6E03672B1DA6A7005B5A84 /* ToiletDetailView.swift */,
+				9A6E03712B1DC5E9005B5A84 /* NavView.swift */,
 				9A110F1F2B19CED200CF2331 /* ToiletAPI.swift */,
+				9A6E036D2B1DAB01005B5A84 /* TouristView.swift */,
+				9A6E03692B1DA900005B5A84 /* TouristAPI.swift */,
+				9A6E036B2B1DA93F005B5A84 /* ParkingAPI.swift */,
+				9A6E036F2B1DC3C4005B5A84 /* ParkingView.swift */,
 				9A110F1B2B19CE5D00CF2331 /* ApiKeys.swift */,
 				9A110F192B19CDEA00CF2331 /* ApiKeys.plist */,
 				9A110F0F2B19CDC600CF2331 /* Assets.xcassets */,
@@ -150,9 +168,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A110F0E2B19CDC300CF2331 /* ContentView.swift in Sources */,
+				9A6E036E2B1DAB01005B5A84 /* TouristView.swift in Sources */,
 				9A110F202B19CED200CF2331 /* ToiletAPI.swift in Sources */,
+				9A6E03702B1DC3C4005B5A84 /* ParkingView.swift in Sources */,
 				9A110F0C2B19CDC300CF2331 /* MalddongApp.swift in Sources */,
+				9A6E036A2B1DA900005B5A84 /* TouristAPI.swift in Sources */,
 				9A110F1C2B19CE5E00CF2331 /* ApiKeys.swift in Sources */,
+				9A6E03682B1DA6A7005B5A84 /* ToiletDetailView.swift in Sources */,
+				9A6E03722B1DC5E9005B5A84 /* NavView.swift in Sources */,
+				9A6E036C2B1DA93F005B5A84 /* ParkingAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
